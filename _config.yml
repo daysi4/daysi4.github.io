@@ -1,0 +1,9 @@
+name: "daysi"
+description: "All about my random, naïve thoughts."
+url: "daysilu.com"
+markdown: rdiscount
+pygments: true
+permalink: /:title
+auto: true
+rdiscount:
+  extensions: [smart]
