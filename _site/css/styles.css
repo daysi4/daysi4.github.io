@@ -1,7 +1,7 @@
 body {
   background-color: #EDEDED;
-  font-family: Georgia, serif;
-  margin-top: 60px;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  margin-top: 50px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -13,9 +13,10 @@ a:hover {
   text-decoration: none;
 }
 
-h1 {
-  color: #36648B;
+h1, h1 a {
+  color: #0099CC;
   margin-bottom: 50px;
+  text-decoration: none;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h2 a {
 }
 
 h3 {
+  font-weight: normal;
   margin-top: -40px;
   padding-bottom: 20px;
   color: #777;
@@ -56,17 +58,6 @@ ul {
   padding-bottom: 50px;
   padding-right: 40px;
   line-height: 1.7em;
-}
-
-#banner {
-  height: 300px;
-  position: relative;
-  width: 900px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-  background-image: url(/img/win8.png);
-  background-size:900px 300px;
 }
 
 #nav {
@@ -110,6 +101,14 @@ ul {
 
 .post ul li {
   margin-bottom: 60px;
+}
+
+.singlepost ul li {
+  margin-bottom: 0;
+}
+
+.post img {
+  vertical-align: middle;
 }
 
 .postdate {

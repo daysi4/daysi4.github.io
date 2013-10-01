@@ -1,5 +1,5 @@
 name: "daysi"
-description: "All about my random, naïve thoughts."
+description: "My random thoughts."
 url: "daysilu.com"
 markdown: rdiscount
 pygments: true
