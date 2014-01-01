@@ -2,9 +2,9 @@
 layout: post
 title: Hello World
 ---
-I'm too lazy to build a site.
+Guess I'm too lazy to build a site.
 
-Just a few resources:
+Just a few resources here:
 
 <div class="singlepost">
 <ul>
