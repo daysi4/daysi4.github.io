@@ -4,6 +4,7 @@ url: "daysilu.com"
 markdown: rdiscount
 pygments: true
 permalink: /:title
+paginate: true
 auto: true
 rdiscount:
   extensions: [smart]
